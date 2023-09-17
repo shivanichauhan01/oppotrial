@@ -1,0 +1,288 @@
+.navbar  {
+    /* background-color: antiquewhite; */
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+
+
+}
+nav {
+ margin-left: 1%;
+    
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+
+
+}
+li {
+margin: 0 3px;
+
+
+}
+a {
+text-decoration: none;
+padding: 10px;
+color: rgb(147, 146, 146);
+
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 18px;
+  width: 2px;
+
+
+}
+.search-container {
+  
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius:15px;
+    outline: none;
+    background-color: rgb(235, 236, 236);
+    width: 15%;
+    
+    
+
+  }
+  
+  
+  
+  input[type="text"] {
+    
+    padding: 10px;
+    font-size: 16px;
+    border: 0;
+    border-radius:15px;
+    outline: none;
+    background-color: rgb(235, 236, 236);
+  }
+#search-bar {
+ font-size: 13px;
+ font-style: "opposans",serif;
+ 
+
+
+}
+.logos {
+ display: flex;
+ height: 3vh;
+ margin-left: 1%;
+ column-gap: 15px;
+ 
+
+
+
+}
+  .buynow {
+  background-color: black;
+  color: white;
+  border-radius: 30px;margin-left: 6%;
+  margin-top: 1.5%;
+  font-size: 18px;
+  width: 8%;
+  height: 5vh;
+  }
+  .Learn {
+    font-size: 18px;
+    border-radius: 30px;
+    width: 10%;
+    height: 5vh;
+    margin-left: 1%;}
+    
+    
+    
+    
+   
+
+
+    .slider {
+      position: relative;
+      width: 200%;
+      max-width: 1330px;
+      margin: 0 auto;
+      overflow: hidden;
+      
+    }
+    
+    .slide  {
+      display: none;
+    }
+    
+     .img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ccc;
+      color: #fff;
+      border: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    
+    .arrow.left {
+      left: 0;
+    }
+    
+    .arrow.right {
+      right: 0;
+    }
+    .slider1 {
+      position: relative;
+      width: 200%;
+      max-width: 1330px;
+      margin: 0 auto;
+      overflow: hidden;
+      
+    }
+    .arrows {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #ccc;
+      color: #fff;
+      border: none;
+      font-size: 18px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    
+    .arrows.left {
+      left: 0;
+      margin-top: 500vh;
+    }
+    
+    .arrows.right {
+      right: 0;
+    }
+    .slider-container {
+      display: flex;
+    }
+    
+    
+    .gallery {
+      overflow: hidden;
+      display: flex;
+     
+    }
+    
+    .gallery-container {
+      white-space: nowrap;
+      animation: scrollGallery 30s linear infinite;
+      display: flex;
+      width: 1000vh;
+      /* background-color: aqua; */
+    }
+    
+    .gallery img {
+      max-width: 100%;
+      margin-top: 5vh;
+      height: 60vh;
+      display: inline-block;
+      margin-right: 10px; /* Adjust the spacing between images */
+    }
+    
+    @keyframes scrollGallery {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-200%);
+      }
+    }
+    
+    .underline:hover .text {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  
+  .underline:hover .hnnn {
+    transform: translateX(20px)
+    
+  }
+  .fotter:hover {
+ color: white;
+ }
+ .fotter {
+  margin-top: 1vh;
+
+
+ }
+ .downfotter:hover {
+  color: white;
+  }
+ .overlayDiv {
+ display: none;
+ z-index: 1;
+ position: absolute;
+
+
+ }
+ .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-effect {
+  transition: filter 0.3s ease-in-out;
+}
+
+.hover-effect:hover {
+filter: brightness(5.0); /* 5.0Adjust the value to change the color intensity */
+}
+#scrollToTopButton {
+ margin-left: 15%;
+ width: 100%;
+
+
+
+
+
+}
+.header:hover{
+ color: rgb(47, 47, 47);
+
+
+}
+.bounce:hover {
+  transform: scale(1.2);
+
+
+}
+.bounce1:hover {
+  transform: scale(1.1);
+
+
+}
+.img:hover {
+  transform: scale(1.1);
+
+
+}
+.Buy:hover {
+ background-color: rgb(69, 67, 67);
+
+
+}
+
+
+   
+
+   
+    
+    
